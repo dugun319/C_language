@@ -7,12 +7,9 @@
 int main()
 {
     cl_int CL_err = CL_SUCCESS;
-    cl_uint numPlatforms;
-    cl_platform_id* platforms;
+    cl_uint numPlatforms = 0;
 
-    clGetPlatformIDs( 0, NULL, &numPlatforms );
-    platforms = (cl_platform_id*)malloc(sizeof(cl_platform_id)* numPlatforms);
-    CL_err = clGetPlatformIDs(numPlatforms, platforms, NULL);
+    CL_err = clGetPlatformIDs( 0, NULL, &numPlatforms );
 
     if (CL_err == CL_SUCCESS)
         printf("%u platform(s) found\n", numPlatforms);
