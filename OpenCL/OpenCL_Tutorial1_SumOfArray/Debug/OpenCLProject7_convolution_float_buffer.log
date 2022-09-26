@@ -1,0 +1,51 @@
+﻿  convolution.c
+convolution.c(30): warning C4005: 'LDNF_MAX_LENGTH_FILTER': 매크로 재정의
+  c:\users\medialab\desktop\20160727_sigmoid_나머지lut해야함_downsamling 208까지 upsampling해야함\openclproject7_convolution_float_buffer\deviceInfo.h(33): note: 'LDNF_MAX_LENGTH_FILTER'의 이전 정의를 참조하십시오.
+convolution.c(94): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+convolution.c(204): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'cl_ulong'입니다.
+  convolution.c(204): note: 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+  convolution.c(204): note: 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+convolution.c(206): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'cl_ulong'입니다.
+  convolution.c(206): note: 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+  convolution.c(206): note: 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+convolution.c(208): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'cl_ulong'입니다.
+  convolution.c(208): note: 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+  convolution.c(208): note: 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+convolution.c(216): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'cl_ulong'입니다.
+  convolution.c(216): note: 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+  convolution.c(216): note: 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+convolution.c(362): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+convolution.c(370): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+convolution.c(409): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+convolution.c(412): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+convolution.c(424): warning C4996: 'clCreateCommandQueue': deprecated로 선언되었습니다.
+  C:\Program Files (x86)\Intel\OpenCL SDK\6.1\include\CL/cl.h(1428): note: 'clCreateCommandQueue' 선언을 참조하십시오.
+convolution.c(807): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+convolution.c(816): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+convolution.c(821): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+convolution.c(1006): warning C4098: 'PreFilter_make_lpf': 'void' 함수에서 값을 반환하고 있습니다.
+convolution.c(1019): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+convolution.c(1035): warning C4098: 'PreFilter_make_lpf': 'void' 함수에서 값을 반환하고 있습니다.
+convolution.c(1063): warning C4098: 'runCLConvolution': 'void' 함수에서 값을 반환하고 있습니다.
+convolution.c(1370): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+convolution.c(1439): warning C4013: 'storeImage_int'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+convolution.c(1580): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+convolution.c(1705): warning C4098: 'runRefLUT': 'void' 함수에서 값을 반환하고 있습니다.
+convolution.c(1729): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+convolution.c(1740): warning C4244: '=': 'float'에서 'WORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+convolution.c(1687): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+convolution.c(1695): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+convolution.c(1709): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+convolution.c(1710): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+convolution.c(1725): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+convolution.c(1681): warning C4101: 'nType' :참조되지 않은 지역 변수입니다.
+convolution.c(2027): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  convolution.c(2027): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 5개가 제공되었습니다.
+  OpenCLProject7_convolution_float_buffer.vcxproj -> C:\Users\medialab\Desktop\20160727_sigmoid_나머지LUT해야함_downsamling 208까지 upsampling해야함\OpenCLProject7_convolution_float_buffer\Debug\OpenCLProject7_convolution_float_buffer.exe
+  convolution.cl
+          1개 파일이 복사되었습니다.
